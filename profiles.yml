@@ -1,0 +1,11 @@
+Supply_Chain_Analytics:
+  outputs:
+    dev:
+      catalog: supply_chain_db
+      host: dbc-67ef4e2c-95b6.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/820adef4dfe2ba6f
+      schema: supply_chain_schema
+      threads: 1
+      token: dapi4071ae4580e764957bc344ed5aa6e26f
+      type: databricks
+  target: dev
